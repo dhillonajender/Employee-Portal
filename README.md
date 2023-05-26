@@ -1,4 +1,4 @@
-# Employee-Portal
+# Employee-Portal built using Java Spring Boot and React
 
 This project is a CRUD (Create, Read, Update, Delete) example application that I built using Spring Boot and React. It showcases how to develop a full-stack web application with a backend implemented in Spring Boot and a frontend developed using React. I used MySQL database and Postman for API testing. 
 
