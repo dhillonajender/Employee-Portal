@@ -1,11 +1,51 @@
-# Employee-Portal built using Java Spring Boot and React
+# Employee Portal - Full-Stack CRUD Example
 
-This project is a CRUD (Create, Read, Update, Delete) example application that I built using Spring Boot and React. It showcases how to develop a full-stack web application with a backend implemented in Spring Boot and a frontend developed using React. I used MySQL database and Postman for API testing. 
+![Employee Portal](https://github.com/dhillonajender/Employee-Portal/blob/main/frontend/public/employee-portal.png)
 
-In this application, I performed basic CRUD operations on a Employee table. It provides a user-friendly interface where we can create new employee records, view existing records, update them, and delete them.
+Welcome to the Employee Portal, a comprehensive example application showcasing the implementation of a full-stack web solution using Java Spring Boot and React. This project demonstrates the fundamental CRUD (Create, Read, Update, Delete) operations on an Employee table, illustrating the synergy between a robust Spring Boot backend and a dynamic React frontend.
 
-The backend of the application is developed using Spring Boot, which is a Java framework for building web applications. I utilized Spring Data JPA, which simplifies database operations, and created RESTful APIs that the frontend can use to interact with the backend. The backend takes care of the business logic, data persistence, and exposes API endpoints for performing CRUD operations.
+## Introduction
 
-In the React part of the project, I utilized components to structure the frontend user interface. React Router was employed for routing, enabling navigation between different pages. State management was achieved using React's built-in state management system i.e, useState hooks, allowing for dynamic data and interactive components. Form handling was demonstrated, capturing user input, validating it, and submitting it to the backend. Axios was used for making asynchronous API requests to the backend. Overall, the React part showcases the power of React in creating reusable components, handling forms, managing state, and interacting with backend APIs.
+The Employee Portal is designed to exemplify the process of building a modern web application. It showcases how to effectively create, retrieve, update, and delete employee records through a user-friendly interface. The project emphasizes the integration of Spring Boot's backend capabilities with React's frontend components, resulting in a seamless and efficient application flow.
 
-One of the main highlights of this project is the seamless integration between the Spring Boot backend and the React frontend. I have implemented HTTP requests from the frontend to the backend APIs and handled the responses efficiently. The project follows the principles of separation of concerns and modularity, resulting in a clean and scalable codebase.
+## Features
+
+- Create new employee records with relevant information.
+- View existing employee records through a clean and organized interface.
+- Update employee details and observe real-time changes.
+- Delete records securely with appropriate confirmation.
+
+## Technologies
+
+### Backend
+
+- **Java Spring Boot:** A powerful Java framework for building robust web applications.
+- **Spring Data JPA:** Simplifies database operations and interactions.
+- **RESTful APIs:** Provides endpoints for seamless communication with the frontend.
+- **MySQL Database:** Efficiently stores and manages employee data.
+- **Postman:** Facilitates API testing and validation.
+
+### Frontend
+
+- **React:** A popular JavaScript library for building dynamic user interfaces.
+- **React Router:** Enables smooth navigation between different pages.
+- **React Hooks:** Manages dynamic data and interactive components.
+- **Form Handling:** Captures, validates, and submits user input efficiently.
+- **Axios:** Makes asynchronous API requests to the backend.
+
+## Installation
+
+1. Clone the repository: `git clone https://github.com/dhillonajender/Employee-Portal.git`
+2. Navigate to the `backend` directory and set up the Spring Boot backend.
+3. Navigate to the `frontend` directory and install frontend dependencies using `npm install`.
+
+## Usage
+
+1. Start the Spring Boot backend.
+2. Navigate to the `frontend` directory and start the React development server using `npm start`.
+3. Access the Employee Portal in your browser at `http://localhost:3000`.
+
+## Contributing
+
+Contributions to this project are welcome! If you encounter issues or have ideas for improvements, feel free to open an issue or submit a pull request.
+
